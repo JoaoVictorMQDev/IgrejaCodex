@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T17:29:25.3962558-03:00",
+  "title": "Design System: Igreja Nova Canaã",
+  "extensions": {
+    "colorMeta": {
+      "primary-wine": { "role": "primary", "displayName": "Vinho Santuário", "canonical": "#681e32", "tonalRamp": ["oklch(15% 0.055 8)", "oklch(25% 0.085 8)", "oklch(35% 0.105 8)", "oklch(45% 0.115 8)", "oklch(58% 0.10 8)", "oklch(70% 0.075 8)", "oklch(83% 0.04 8)", "oklch(95% 0.012 8)"] },
+      "primary-wine-dark": { "role": "primary", "displayName": "Vinho Profundo", "canonical": "#3e101e", "tonalRamp": ["oklch(13% 0.04 8)", "oklch(22% 0.07 8)", "oklch(32% 0.09 8)", "oklch(44% 0.10 8)", "oklch(57% 0.085 8)", "oklch(70% 0.06 8)", "oklch(84% 0.032 8)", "oklch(95% 0.01 8)"] },
+      "primary-wine-light": { "role": "primary", "displayName": "Vinho Luminoso", "canonical": "#8b3049", "tonalRamp": ["oklch(15% 0.05 8)", "oklch(26% 0.08 8)", "oklch(38% 0.11 8)", "oklch(50% 0.12 8)", "oklch(62% 0.10 8)", "oklch(73% 0.07 8)", "oklch(85% 0.04 8)", "oklch(95% 0.012 8)"] },
+      "neutral-cream": { "role": "neutral", "displayName": "Creme Litúrgico", "canonical": "#f5f0e6", "tonalRamp": ["oklch(15% 0.01 82)", "oklch(27% 0.014 82)", "oklch(40% 0.018 82)", "oklch(54% 0.022 82)", "oklch(68% 0.025 82)", "oklch(80% 0.027 82)", "oklch(90% 0.024 82)", "oklch(96% 0.018 82)"] },
+      "neutral-paper": { "role": "neutral", "displayName": "Papel Acolhedor", "canonical": "#fbf8f1", "tonalRamp": ["oklch(15% 0.008 82)", "oklch(28% 0.011 82)", "oklch(42% 0.014 82)", "oklch(56% 0.016 82)", "oklch(70% 0.018 82)", "oklch(82% 0.019 82)", "oklch(91% 0.016 82)", "oklch(98% 0.009 82)"] },
+      "accent-gold": { "role": "secondary", "displayName": "Ouro Fosco", "canonical": "#c99a55", "tonalRamp": ["oklch(15% 0.035 73)", "oklch(27% 0.065 73)", "oklch(40% 0.09 73)", "oklch(54% 0.105 73)", "oklch(66% 0.10 73)", "oklch(77% 0.075 73)", "oklch(87% 0.045 73)", "oklch(95% 0.018 73)"] },
+      "accent-ivory": { "role": "secondary", "displayName": "Marfim Dourado", "canonical": "#e5c99e", "tonalRamp": ["oklch(15% 0.022 75)", "oklch(28% 0.04 75)", "oklch(41% 0.06 75)", "oklch(55% 0.075 75)", "oklch(68% 0.075 75)", "oklch(79% 0.06 75)", "oklch(88% 0.04 75)", "oklch(96% 0.015 75)"] },
+      "neutral-ink": { "role": "neutral", "displayName": "Tinta Quente", "canonical": "#241d1c", "tonalRamp": ["oklch(13% 0.008 30)", "oklch(24% 0.012 30)", "oklch(37% 0.014 30)", "oklch(50% 0.015 30)", "oklch(64% 0.014 30)", "oklch(76% 0.012 30)", "oklch(87% 0.008 30)", "oklch(96% 0.004 30)"] },
+      "neutral-muted": { "role": "neutral", "displayName": "Cinza Terroso", "canonical": "#6f6561", "tonalRamp": ["oklch(14% 0.008 35)", "oklch(27% 0.012 35)", "oklch(40% 0.014 35)", "oklch(53% 0.016 35)", "oklch(65% 0.015 35)", "oklch(77% 0.012 35)", "oklch(88% 0.008 35)", "oklch(96% 0.004 35)"] },
+      "neutral-footer": { "role": "neutral", "displayName": "Carvão do Rodapé", "canonical": "#1d1717", "tonalRamp": ["oklch(11% 0.006 25)", "oklch(23% 0.009 25)", "oklch(36% 0.011 25)", "oklch(49% 0.012 25)", "oklch(63% 0.011 25)", "oklch(76% 0.009 25)", "oklch(88% 0.006 25)", "oklch(96% 0.003 25)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Editorial", "purpose": "Declarações de herói e aberturas principais." },
+      "headline": { "displayName": "Headline Editorial", "purpose": "Títulos de seções e páginas internas." },
+      "title": { "displayName": "Título de Conteúdo", "purpose": "Cartões, departamentos e encontros." },
+      "body": { "displayName": "Corpo Informativo", "purpose": "Apresentação, orientação e informações práticas." },
+      "label": { "displayName": "Rótulo Cerimonial", "purpose": "Categorias, datas e metadados em caixa alta." }
+    },
+    "shadows": [
+      { "name": "header-float", "value": "0 10px 35px rgba(48,25,28,.08)", "purpose": "Separar o cabeçalho translúcido depois da rolagem." },
+      { "name": "wine-highlight", "value": "0 24px 55px rgba(104,30,50,.17)", "purpose": "Elevar um único cartão destacado." },
+      { "name": "ambient-callout", "value": "0 32px 80px rgba(70,24,35,.18)", "purpose": "Ancorar grandes blocos de conversão." },
+      { "name": "deep-arch", "value": "-24px 28px 70px rgba(35,7,15,.28)", "purpose": "Dar volume à composição de arcos do herói." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Entradas e respostas rápidas de interface." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "Recortes e movimento decorativo que permanecem em cena." },
+      { "name": "press", "value": "transform 160ms cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Feedback de pressão em botões e chamadas." },
+      { "name": "reveal", "value": "opacity 600ms cubic-bezier(0.23, 1, 0.32, 1), transform 600ms cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Entrada única de seções durante a rolagem, com stagger de 60ms por grupo." },
+      { "name": "scroll-progress", "value": "transform: scaleX(progress)", "purpose": "Indicador dourado fixo no topo, atualizado por requestAnimationFrame." }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "920px" },
+      { "name": "mobile", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão Primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Chamada clara sobre superfícies vinho.",
+      "html": "<button class=\"ds-btn-primary\">QUERO CONHECER</button>",
+      "css": ".ds-btn-primary { min-height: 50px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--cream, #f5f0e6); color: var(--wine-dark, #3e101e); font: 700 13px 'DM Sans', Arial, sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(.23,1,.32,1), background-color 180ms ease; } .ds-btn-primary:hover { background: #fff; } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent-gold, #c99a55); outline-offset: 3px; } .ds-btn-primary:active { transform: scale(.97); }"
+    },
+    {
+      "name": "Botão Vinho",
+      "kind": "button",
+      "refersTo": "button-solid",
+      "description": "Chamada principal sobre papel ou creme.",
+      "html": "<button class=\"ds-btn-solid\">FALE COM A GENTE →</button>",
+      "css": ".ds-btn-solid { min-height: 50px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--wine, #681e32); color: #fff; font: 700 13px 'DM Sans', Arial, sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(.23,1,.32,1), background-color 180ms ease; } .ds-btn-solid:hover { background: var(--wine-dark, #3e101e); } .ds-btn-solid:focus-visible { outline: 2px solid var(--accent-gold, #c99a55); outline-offset: 3px; } .ds-btn-solid:active { transform: scale(.97); }"
+    },
+    {
+      "name": "Cartão de Valor",
+      "kind": "card",
+      "refersTo": "card-featured",
+      "description": "Cartão editorial reto com numeração e título serifado.",
+      "html": "<article class=\"ds-value-card\"><span>02</span><h3>Crescer</h3><p>Amadurecer na fé através da Palavra e da comunhão.</p></article>",
+      "css": ".ds-value-card { width: 280px; min-height: 220px; padding: 36px; background: var(--wine, #681e32); color: #fff; box-shadow: 0 24px 55px rgba(104,30,50,.17); font-family: 'DM Sans', Arial, sans-serif; } .ds-value-card span { color: var(--accent-gold, #c99a55); font-size: 10px; letter-spacing: .15em; } .ds-value-card h3 { margin: 70px 0 10px; font: 600 30px 'Playfair Display', Georgia, serif; } .ds-value-card p { margin: 0; color: rgba(255,255,255,.65); font-size: 13px; line-height: 1.6; }"
+    },
+    {
+      "name": "Linha de Programação",
+      "kind": "custom",
+      "description": "Encontro semanal apresentado como linha editorial ampla.",
+      "html": "<div class=\"ds-schedule-row\"><div class=\"ds-day\"><span>DOM</span><strong>19</strong></div><div><h3>Culto de Celebração</h3><p>Louvor, mensagem e comunhão.</p></div><div class=\"ds-time\">DOMINGOS<strong>19:00</strong></div><b>↗</b></div>",
+      "css": ".ds-schedule-row { min-height: 135px; display: grid; grid-template-columns: 72px 1fr 110px 20px; gap: 24px; align-items: center; padding: 0 12px; color: #fff; background: var(--wine-dark, #3e101e); border-block: 1px solid rgba(255,255,255,.15); transition: background-color 200ms ease; font-family: 'DM Sans', Arial, sans-serif; } .ds-schedule-row:hover { background: #4b1626; } .ds-day { width: 62px; height: 72px; display: grid; place-content: center; text-align: center; border: 1px solid rgba(255,255,255,.2); } .ds-day span, .ds-time { color: var(--accent-ivory, #e5c99e); font-size: 9px; letter-spacing: .14em; } .ds-day strong { font: 600 27px 'Playfair Display', Georgia, serif; } .ds-schedule-row h3 { margin: 0 0 6px; font: 600 24px 'Playfair Display', Georgia, serif; } .ds-schedule-row p { margin: 0; color: rgba(255,255,255,.5); font-size: 12px; } .ds-time strong { display: block; margin-top: 7px; color: #fff; font-size: 14px; letter-spacing: 0; } .ds-schedule-row b { color: var(--accent-ivory, #e5c99e); font-weight: 400; }"
+    },
+    {
+      "name": "Linha de Contato",
+      "kind": "custom",
+      "description": "Contato direto apresentado sem elevação, como índice editorial.",
+      "html": "<a class=\"ds-contact-row\" href=\"#\"><span>E-MAIL</span><strong>ola@igreja.com.br</strong><b>↗</b></a>",
+      "css": ".ds-contact-row { min-height: 110px; display: grid; grid-template-columns: 120px 1fr 24px; gap: 20px; align-items: center; color: var(--ink, #241d1c); text-decoration: none; border-block: 1px solid rgba(36,29,28,.14); transition: padding 200ms cubic-bezier(.23,1,.32,1), color 180ms ease; } .ds-contact-row span { color: var(--muted, #6f6561); font: 700 10px 'DM Sans', Arial, sans-serif; letter-spacing: .14em; } .ds-contact-row strong { font: 600 25px 'Playfair Display', Georgia, serif; } .ds-contact-row b { color: var(--wine, #681e32); font-size: 20px; font-weight: 400; } .ds-contact-row:hover { padding-inline: 12px; color: var(--wine, #681e32); } .ds-contact-row:focus-visible { outline: 2px solid var(--wine, #681e32); outline-offset: 3px; }"
+    },
+    {
+      "name": "Marca de Navegação",
+      "kind": "nav",
+      "description": "Assinatura compacta com símbolo circular e hierarquia em duas linhas.",
+      "html": "<a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-mark\"><svg viewBox=\"0 0 42 42\" aria-hidden=\"true\"><path d=\"M21 4v34M7 16h28\"/><path d=\"M11 38c3-6 6-9 10-11 4 2 7 5 10 11\"/></svg></span><span><strong>IGREJA</strong> Nova Canaã</span></a>",
+      "css": ".ds-brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink, #241d1c); text-decoration: none; font: 400 16px 'DM Sans', Arial, sans-serif; letter-spacing: -.02em; } .ds-brand-mark { width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid currentColor; border-radius: 50%; } .ds-brand-mark svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; } .ds-brand strong { display: block; font-size: 11px; line-height: 1; letter-spacing: .2em; } .ds-brand:focus-visible { outline: 2px solid var(--wine, #681e32); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Santuário Editorial",
+    "overview": "O sistema combina a presença silenciosa de um espaço de culto com a clareza de uma publicação editorial. Grandes títulos serifados criam solenidade sem distância; o corpo em sans-serif mantém todas as informações práticas acessíveis. A composição é espaçosa, assimétrica e deliberada, alternando superfícies claras e blocos profundos em vinho. A atmosfera é serena, reverente e acolhedora. A profundidade vem principalmente de camadas tonais, contraste e geometria; sombras ambientes aparecem apenas em pontos de destaque. Componentes são refinados, discretos e responsivos ao toque, sem competir com a mensagem.",
+    "keyCharacteristics": [
+      "Hierarquia editorial de alto contraste, com títulos serifados expressivos.",
+      "Paleta quente de vinho, creme, papel e ouro fosco.",
+      "Muito espaço negativo e seções com ritmo amplo.",
+      "Geometria simbólica construída com círculos, arcos e linhas finas.",
+      "Interações breves e suaves, sempre subordinadas ao conteúdo."
+    ],
+    "rules": [
+      { "name": "The Wine Anchor Rule", "body": "Toda página deve ter ao menos um momento estrutural em vinho, mas o vinho não deve ocupar todas as superfícies.", "section": "colors" },
+      { "name": "The Muted Gold Rule", "body": "Ouro orienta e pontua; nunca substitui o vinho como voz principal nem vira efeito metálico brilhante.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Playfair fala sobre significado; DM Sans explica, orienta e permite agir.", "section": "typography" },
+      { "name": "The Editorial Emphasis Rule", "body": "Destaques dentro de grandes títulos usam itálico serifado e marfim dourado ou vinho, nunca negrito sans-serif.", "section": "typography" },
+      { "name": "The Breathing Room Rule", "body": "Espaço negativo é parte do conteúdo; novas seções não devem comprimir o ritmo vertical para acomodar mais informação.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Superfícies comuns usam borda ou mudança tonal; sombra significa destaque estrutural, não decoração automática.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do preserve a alternância entre vinho profundo e superfícies claras de papel ou creme.",
+      "Do use Playfair Display para significado e DM Sans para orientação prática.",
+      "Do maintain títulos grandes, poucas linhas e espaço negativo generoso.",
+      "Do use círculos, arcos e linhas finas como geometria recorrente.",
+      "Do keep estados ativos e pressionados curtos, acessíveis e perceptíveis."
+    ],
+    "donts": [
+      "Don't adicionar cores frias ou acentos saturados que disputem com vinho e ouro fosco.",
+      "Don't arredondar cartões genéricos; a pílula pertence a botões e o círculo a símbolos.",
+      "Don't aplicar sombras a todas as superfícies ou usar brilho metálico no ouro.",
+      "Don't usar fontes serifadas em textos longos, navegação de desktop ou metadados.",
+      "Don't transformar símbolos religiosos em ornamento repetitivo; a cruz permanece um elemento intencional e contido."
+    ]
+  }
+}
